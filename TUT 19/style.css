@@ -14,4 +14,13 @@ h2{
     text-decoration-color: rgb(197, 122, 23);
     /* text-decoration-style: dotted; */
     text-decoration-thickness:7px ;
+    text-indent: 43px;
+    text-align: center;
+}
+.lorem{
+    border: 2px solid black;
+    width: 145px;
+    word-break: break-all;
+    /* text-overflow: ellipsis;
+    overflow: hidden; */
 }

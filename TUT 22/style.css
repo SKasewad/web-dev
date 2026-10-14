@@ -19,6 +19,7 @@
 }
 .container p{
  font-size: 2rem;
+ width: 50%;
 }
 *{
     margin: 0;
@@ -26,4 +27,13 @@
 }
 html{
     font-size: 12px;
+}
+.mycont{
+    /* background-color: red; */
+    color: yellow;
+    font-size: 22px;
+    width: 100vmin;
+    color: black;
+    border: 2px solid black;
+    margin:23px auto;
 }

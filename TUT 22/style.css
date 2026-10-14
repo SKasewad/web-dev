@@ -17,9 +17,14 @@
     font-size: 20px;
    
 }
-.container p{
+.container > div{
  font-size: 2rem;
  width: 50%;
+ border: 2px solid black;
+}
+.container > div > div{
+    border: 2px solid blue;
+    width: 50%;
 }
 *{
     margin: 0;

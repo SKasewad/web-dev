@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbaar</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+
+        }
+        :root{
+            --color:rgb(27, 132, 132);
+            --seccolor:rgb(190, 83, 83);
+        }
+        ul li{
+            height: 60px;
+            width: 60px;
+            list-style: none;
+            padding: 40px;
+            border: 2px solid rgb(0, 0, 0);
+            
+        }
+        ul{
+            display: flex;
+        }
+        .nav{
+            background-color: var(--color);
+        }
+        ul li:first-child{
+            background-color: var(--seccolor);
+        }
+        ul li:last-child{
+            --seccolor:rgb(99, 45, 45);
+            background-color: var(--seccolor);
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
